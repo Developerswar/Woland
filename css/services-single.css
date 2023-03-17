@@ -1,8 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 
+/* .body {
+    font-family: 'Montserrat', sans-serif;
+} */
+
 div {
   font-family: 'Roboto', sans-serif;
 }
+
+
 
 /* navbar */
 
@@ -87,178 +93,37 @@ div {
   color: #fff;
 }
 
-/* services-list */
+/* service */
 
-.services-list {
+.service {
   padding: 100px 0px;
 }
 
-.services-list-text {
-  padding: 0px 30px;
-}
-
-.services-list-text h6 {
-  font-size: 25px;
-  font-weight: 600;
-  margin: 30px 0px 20px 0px;
-}
-
-.services-list-text p {
-  line-height: 30px;
-  color: #858585;
-}
-
-.service-img {
-  border-radius: 10px;
-  overflow: hidden;
-  transition: all 0.35s ease;
-}
-
-.service-card:hover img {
-  transform: scale(1.1);
-}
-
-/* services */
-
-
-.services {
-  padding: 100px 0;
-  background-color: #f5f5f5;
-}
-
-.services-heading {
+.service h3 {
   font-size: 50px;
   font-weight: 700;
-  color: #040404;
-  margin-bottom: 50px;
-}
-
-.services-card {
-  box-shadow: 0px 0px 23px -7px rgba(0, 0, 0, 0.14);
-  background-color: #fff;
-  border-radius: 10px;
-  padding: 70px 30px;
-  transition: all 0.35s ease;
-  width: 30% !important;
-}
-
-.services-card:hover {
-  box-shadow: none;
-  transform: translateY(5px);
-}
-
-.services-h6 {
-  color: #858585;
-  letter-spacing: 1px;
-  font-size: 12px;
-}
-
-.services-h5 {
-  color: #080808;
-  font-weight: 700;
-}
-
-.services-body {
-  font-size: 15px;
-  margin-bottom: 20px;
-}
-
-.services-icon {
-  padding: 20px 50px;
-}
-
-.services-icon i {
-  font-size: 20px;
-}
-
-.services-card a {
-  padding-top: 40px;
-  font-weight: 800;
-  font-size: 12px;
   color: #101010;
-  cursor: pointer;
-  transition: all 0.35s ease;
-  letter-spacing: 2px;
-  margin-top: 20px;
-  text-decoration: none;
+  margin-bottom: 40px;
 }
 
-.services-card a:hover {
-  color: #00aee8;
-  text-decoration: underline;
-}
-
-@media (max-width: 992px) {
-  .services-card {
-    width: 70% !important;
-    margin-bottom: 20px;
-  }
-}
-
-/* offer */
-
-.offer {
-  padding: 100px 0px;
-}
-
-.offer-left {
-  background-color: #e9e9e9;
-  padding: 50px 100px 50px 50px;
-}
-
-.offer-left h3 {
-  margin: 20px 0px 40px 0px;
-  line-height: 50px;
-}
-
-.offer-left a {
-  color: #ff0059;
-  letter-spacing: 2px;
-  font-weight: 500;
-}
-
-.offer-right h6 {
-  font-weight: 700px;
-  color: #00aee8;
-}
-
-.offer-right h3 {
-  font-size: 50px;
-  font-weight: 700;
-  color: #040404;
-  margin-bottom: 30px;
-}
-
-.offer-right p {
+.service p {
+  color: #858585;
   font-size: 18px;
-  line-height: 40px;
+  line-height: 35px;
 }
 
-.offer-right a {
-  font-size: 25px;
-  font-weight: 800;
-  color: #000;
-  text-decoration: none;
+.service-btn {
+  padding: 15px 30px;
+  margin-top: 42px;
+  color: #fff;
+  background-color: #ffa631;
+  border: none;
+  border-radius: 8px;
   transition: all 0.35s ease;
 }
 
-.offer-right a:hover {
-  color: #ffa631;
-}
-
-/* partners */
-
-.partners {
-  padding: 100px 0px;
-}
-
-.partner-img {
-  padding: 20px 30px;
-  transition: all 0.35s ease;
-}
-
-.partner-img:hover {
-  box-shadow: 0px 0px 23px -7px rgba(0, 0, 0, 0.14);
+.service-btn:hover {
+  background-color: #00aee8;
 }
 
 /* switch */
@@ -366,6 +231,8 @@ div {
     margin-bottom: 10px;
   }
 }
+
+/* social-icons */
 
 .social-icons ul {
   margin-top: 20px;
