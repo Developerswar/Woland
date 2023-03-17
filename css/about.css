@@ -172,11 +172,16 @@ div {
     margin-bottom: 5px;
   }
   .trust h6 {
-    margin-bottom: 8px;
-    margin-top: 50px;
+    margin-bottom: 5px;
+    margin-top: 0px;
   }
   .discover-btn {
     margin-top: 0px;
+  }
+}
+@media (max-width: 992px) {
+  .trust h6 {
+    margin-top: 50px;
   }
 }
 
